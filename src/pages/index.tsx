@@ -6,6 +6,7 @@ import perfumePicM from '../../public/image-product-mobile.jpg';
 const Home: NextPage = () => {
   return (
     <>
+      <title>Frontendmentor coding challenge</title>
       <div className="w-screen h-screen md:flex items-center justify-center bg-orange-50">
         <main className="m-4 max-w-xl md:flex bg-white shadow-xl rounded-xl">
           <div className="overflow-hidden md:w-1/2 rounded-t-xl md:rounded-l-xl md:rounded-none">
