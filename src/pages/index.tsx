@@ -1,8 +1,7 @@
 import { type NextPage } from "next";
 import Image from "next/image";
-import perfumePicM from '../../public/image-product-mobile.jpg'
-import perfumePicD from '../../public/image-product-desktop.jpg'
-import cartPic from '../../public/icon-cart.svg'
+import perfumePicD from '../../public/image-product-desktop.jpg';
+import perfumePicM from '../../public/image-product-mobile.jpg';
 
 const Home: NextPage = () => {
   return (
@@ -33,7 +32,7 @@ const Home: NextPage = () => {
             </div>
 
             <button className="w-full flex items-center justify-center p-4 font-Montserrat text-sm text-white font-semibold bg-emerald-700 rounded-md">
-              <Image src={cartPic} alt="Cart picture"></Image>
+              <Image src={'/icon-cart.svg'} alt="Cart picture" width={24} height={24}></Image>
               <h1 className="ml-3">Add to Cart</h1>
             </button>
           </div>
